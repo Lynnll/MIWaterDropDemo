@@ -1,0 +1,541 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		E2F82AE21BE0AA2600AF25C8 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = E2F82AE11BE0AA2600AF25C8 /* main.m */; };
+		E2F82AE51BE0AA2600AF25C8 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = E2F82AE41BE0AA2600AF25C8 /* AppDelegate.m */; };
+		E2F82AE81BE0AA2600AF25C8 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = E2F82AE71BE0AA2600AF25C8 /* ViewController.m */; };
+		E2F82AEB1BE0AA2600AF25C8 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E2F82AE91BE0AA2600AF25C8 /* Main.storyboard */; };
+		E2F82AED1BE0AA2600AF25C8 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E2F82AEC1BE0AA2600AF25C8 /* Assets.xcassets */; };
+		E2F82AF01BE0AA2600AF25C8 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E2F82AEE1BE0AA2600AF25C8 /* LaunchScreen.storyboard */; };
+		E2F82AFB1BE0AA2600AF25C8 /* MIWaterDropDemoTests.m in Sources */ = {isa = PBXBuildFile; fileRef = E2F82AFA1BE0AA2600AF25C8 /* MIWaterDropDemoTests.m */; };
+		E2F82B061BE0AA2600AF25C8 /* MIWaterDropDemoUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = E2F82B051BE0AA2600AF25C8 /* MIWaterDropDemoUITests.m */; };
+		E2F82B151BE0AA4A00AF25C8 /* MIWaterDropView.m in Sources */ = {isa = PBXBuildFile; fileRef = E2F82B141BE0AA4A00AF25C8 /* MIWaterDropView.m */; };
+		E2F82B1D1BE0AD7A00AF25C8 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E2F82B1C1BE0AD7A00AF25C8 /* Foundation.framework */; };
+		E2F82B1F1BE0ADAC00AF25C8 /* CoreData.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E2F82B1E1BE0ADAC00AF25C8 /* CoreData.framework */; };
+		E2F82B231BE0AEB700AF25C8 /* MIFactory.m in Sources */ = {isa = PBXBuildFile; fileRef = E2F82B221BE0AEB700AF25C8 /* MIFactory.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		E2F82AF71BE0AA2600AF25C8 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = E2F82AD51BE0AA2600AF25C8 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = E2F82ADC1BE0AA2600AF25C8;
+			remoteInfo = MIWaterDropDemo;
+		};
+		E2F82B021BE0AA2600AF25C8 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = E2F82AD51BE0AA2600AF25C8 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = E2F82ADC1BE0AA2600AF25C8;
+			remoteInfo = MIWaterDropDemo;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		E2F82ADD1BE0AA2600AF25C8 /* MIWaterDropDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MIWaterDropDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		E2F82AE11BE0AA2600AF25C8 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		E2F82AE31BE0AA2600AF25C8 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		E2F82AE41BE0AA2600AF25C8 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		E2F82AE61BE0AA2600AF25C8 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		E2F82AE71BE0AA2600AF25C8 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		E2F82AEA1BE0AA2600AF25C8 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		E2F82AEC1BE0AA2600AF25C8 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		E2F82AEF1BE0AA2600AF25C8 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		E2F82AF11BE0AA2600AF25C8 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		E2F82AF61BE0AA2600AF25C8 /* MIWaterDropDemoTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MIWaterDropDemoTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		E2F82AFA1BE0AA2600AF25C8 /* MIWaterDropDemoTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MIWaterDropDemoTests.m; sourceTree = "<group>"; };
+		E2F82AFC1BE0AA2600AF25C8 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		E2F82B011BE0AA2600AF25C8 /* MIWaterDropDemoUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MIWaterDropDemoUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		E2F82B051BE0AA2600AF25C8 /* MIWaterDropDemoUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MIWaterDropDemoUITests.m; sourceTree = "<group>"; };
+		E2F82B071BE0AA2600AF25C8 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		E2F82B131BE0AA4A00AF25C8 /* MIWaterDropView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MIWaterDropView.h; sourceTree = "<group>"; };
+		E2F82B141BE0AA4A00AF25C8 /* MIWaterDropView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MIWaterDropView.m; sourceTree = "<group>"; };
+		E2F82B1C1BE0AD7A00AF25C8 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		E2F82B1E1BE0ADAC00AF25C8 /* CoreData.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreData.framework; path = System/Library/Frameworks/CoreData.framework; sourceTree = SDKROOT; };
+		E2F82B211BE0AEB700AF25C8 /* MIFactory.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MIFactory.h; sourceTree = "<group>"; };
+		E2F82B221BE0AEB700AF25C8 /* MIFactory.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MIFactory.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		E2F82ADA1BE0AA2600AF25C8 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E2F82B1F1BE0ADAC00AF25C8 /* CoreData.framework in Frameworks */,
+				E2F82B1D1BE0AD7A00AF25C8 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E2F82AF31BE0AA2600AF25C8 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E2F82AFE1BE0AA2600AF25C8 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		E2F82AD41BE0AA2600AF25C8 = {
+			isa = PBXGroup;
+			children = (
+				E2F82B1E1BE0ADAC00AF25C8 /* CoreData.framework */,
+				E2F82B1C1BE0AD7A00AF25C8 /* Foundation.framework */,
+				E2F82ADF1BE0AA2600AF25C8 /* MIWaterDropDemo */,
+				E2F82AF91BE0AA2600AF25C8 /* MIWaterDropDemoTests */,
+				E2F82B041BE0AA2600AF25C8 /* MIWaterDropDemoUITests */,
+				E2F82ADE1BE0AA2600AF25C8 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		E2F82ADE1BE0AA2600AF25C8 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				E2F82ADD1BE0AA2600AF25C8 /* MIWaterDropDemo.app */,
+				E2F82AF61BE0AA2600AF25C8 /* MIWaterDropDemoTests.xctest */,
+				E2F82B011BE0AA2600AF25C8 /* MIWaterDropDemoUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		E2F82ADF1BE0AA2600AF25C8 /* MIWaterDropDemo */ = {
+			isa = PBXGroup;
+			children = (
+				E2F82AE31BE0AA2600AF25C8 /* AppDelegate.h */,
+				E2F82AE41BE0AA2600AF25C8 /* AppDelegate.m */,
+				E2F82AE61BE0AA2600AF25C8 /* ViewController.h */,
+				E2F82AE71BE0AA2600AF25C8 /* ViewController.m */,
+				E2F82B131BE0AA4A00AF25C8 /* MIWaterDropView.h */,
+				E2F82B141BE0AA4A00AF25C8 /* MIWaterDropView.m */,
+				E2F82B211BE0AEB700AF25C8 /* MIFactory.h */,
+				E2F82B221BE0AEB700AF25C8 /* MIFactory.m */,
+				E2F82AE91BE0AA2600AF25C8 /* Main.storyboard */,
+				E2F82AEC1BE0AA2600AF25C8 /* Assets.xcassets */,
+				E2F82AEE1BE0AA2600AF25C8 /* LaunchScreen.storyboard */,
+				E2F82AF11BE0AA2600AF25C8 /* Info.plist */,
+				E2F82AE01BE0AA2600AF25C8 /* Supporting Files */,
+			);
+			path = MIWaterDropDemo;
+			sourceTree = "<group>";
+		};
+		E2F82AE01BE0AA2600AF25C8 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				E2F82AE11BE0AA2600AF25C8 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		E2F82AF91BE0AA2600AF25C8 /* MIWaterDropDemoTests */ = {
+			isa = PBXGroup;
+			children = (
+				E2F82AFA1BE0AA2600AF25C8 /* MIWaterDropDemoTests.m */,
+				E2F82AFC1BE0AA2600AF25C8 /* Info.plist */,
+			);
+			path = MIWaterDropDemoTests;
+			sourceTree = "<group>";
+		};
+		E2F82B041BE0AA2600AF25C8 /* MIWaterDropDemoUITests */ = {
+			isa = PBXGroup;
+			children = (
+				E2F82B051BE0AA2600AF25C8 /* MIWaterDropDemoUITests.m */,
+				E2F82B071BE0AA2600AF25C8 /* Info.plist */,
+			);
+			path = MIWaterDropDemoUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		E2F82ADC1BE0AA2600AF25C8 /* MIWaterDropDemo */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = E2F82B0A1BE0AA2600AF25C8 /* Build configuration list for PBXNativeTarget "MIWaterDropDemo" */;
+			buildPhases = (
+				E2F82AD91BE0AA2600AF25C8 /* Sources */,
+				E2F82ADA1BE0AA2600AF25C8 /* Frameworks */,
+				E2F82ADB1BE0AA2600AF25C8 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = MIWaterDropDemo;
+			productName = MIWaterDropDemo;
+			productReference = E2F82ADD1BE0AA2600AF25C8 /* MIWaterDropDemo.app */;
+			productType = "com.apple.product-type.application";
+		};
+		E2F82AF51BE0AA2600AF25C8 /* MIWaterDropDemoTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = E2F82B0D1BE0AA2600AF25C8 /* Build configuration list for PBXNativeTarget "MIWaterDropDemoTests" */;
+			buildPhases = (
+				E2F82AF21BE0AA2600AF25C8 /* Sources */,
+				E2F82AF31BE0AA2600AF25C8 /* Frameworks */,
+				E2F82AF41BE0AA2600AF25C8 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				E2F82AF81BE0AA2600AF25C8 /* PBXTargetDependency */,
+			);
+			name = MIWaterDropDemoTests;
+			productName = MIWaterDropDemoTests;
+			productReference = E2F82AF61BE0AA2600AF25C8 /* MIWaterDropDemoTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		E2F82B001BE0AA2600AF25C8 /* MIWaterDropDemoUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = E2F82B101BE0AA2600AF25C8 /* Build configuration list for PBXNativeTarget "MIWaterDropDemoUITests" */;
+			buildPhases = (
+				E2F82AFD1BE0AA2600AF25C8 /* Sources */,
+				E2F82AFE1BE0AA2600AF25C8 /* Frameworks */,
+				E2F82AFF1BE0AA2600AF25C8 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				E2F82B031BE0AA2600AF25C8 /* PBXTargetDependency */,
+			);
+			name = MIWaterDropDemoUITests;
+			productName = MIWaterDropDemoUITests;
+			productReference = E2F82B011BE0AA2600AF25C8 /* MIWaterDropDemoUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		E2F82AD51BE0AA2600AF25C8 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0710;
+				ORGANIZATIONNAME = XiaoLei;
+				TargetAttributes = {
+					E2F82ADC1BE0AA2600AF25C8 = {
+						CreatedOnToolsVersion = 7.1;
+					};
+					E2F82AF51BE0AA2600AF25C8 = {
+						CreatedOnToolsVersion = 7.1;
+						TestTargetID = E2F82ADC1BE0AA2600AF25C8;
+					};
+					E2F82B001BE0AA2600AF25C8 = {
+						CreatedOnToolsVersion = 7.1;
+						TestTargetID = E2F82ADC1BE0AA2600AF25C8;
+					};
+				};
+			};
+			buildConfigurationList = E2F82AD81BE0AA2600AF25C8 /* Build configuration list for PBXProject "MIWaterDropDemo" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = E2F82AD41BE0AA2600AF25C8;
+			productRefGroup = E2F82ADE1BE0AA2600AF25C8 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				E2F82ADC1BE0AA2600AF25C8 /* MIWaterDropDemo */,
+				E2F82AF51BE0AA2600AF25C8 /* MIWaterDropDemoTests */,
+				E2F82B001BE0AA2600AF25C8 /* MIWaterDropDemoUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		E2F82ADB1BE0AA2600AF25C8 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E2F82AF01BE0AA2600AF25C8 /* LaunchScreen.storyboard in Resources */,
+				E2F82AED1BE0AA2600AF25C8 /* Assets.xcassets in Resources */,
+				E2F82AEB1BE0AA2600AF25C8 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E2F82AF41BE0AA2600AF25C8 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E2F82AFF1BE0AA2600AF25C8 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		E2F82AD91BE0AA2600AF25C8 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E2F82AE81BE0AA2600AF25C8 /* ViewController.m in Sources */,
+				E2F82B151BE0AA4A00AF25C8 /* MIWaterDropView.m in Sources */,
+				E2F82B231BE0AEB700AF25C8 /* MIFactory.m in Sources */,
+				E2F82AE51BE0AA2600AF25C8 /* AppDelegate.m in Sources */,
+				E2F82AE21BE0AA2600AF25C8 /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E2F82AF21BE0AA2600AF25C8 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E2F82AFB1BE0AA2600AF25C8 /* MIWaterDropDemoTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E2F82AFD1BE0AA2600AF25C8 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E2F82B061BE0AA2600AF25C8 /* MIWaterDropDemoUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		E2F82AF81BE0AA2600AF25C8 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = E2F82ADC1BE0AA2600AF25C8 /* MIWaterDropDemo */;
+			targetProxy = E2F82AF71BE0AA2600AF25C8 /* PBXContainerItemProxy */;
+		};
+		E2F82B031BE0AA2600AF25C8 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = E2F82ADC1BE0AA2600AF25C8 /* MIWaterDropDemo */;
+			targetProxy = E2F82B021BE0AA2600AF25C8 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		E2F82AE91BE0AA2600AF25C8 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				E2F82AEA1BE0AA2600AF25C8 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		E2F82AEE1BE0AA2600AF25C8 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				E2F82AEF1BE0AA2600AF25C8 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		E2F82B081BE0AA2600AF25C8 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.1;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		E2F82B091BE0AA2600AF25C8 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		E2F82B0B1BE0AA2600AF25C8 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = MIWaterDropDemo/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.mosoink.MIWaterDropDemo;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		E2F82B0C1BE0AA2600AF25C8 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = MIWaterDropDemo/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.mosoink.MIWaterDropDemo;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		E2F82B0E1BE0AA2600AF25C8 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = MIWaterDropDemoTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.mosoink.MIWaterDropDemoTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/MIWaterDropDemo.app/MIWaterDropDemo";
+			};
+			name = Debug;
+		};
+		E2F82B0F1BE0AA2600AF25C8 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = MIWaterDropDemoTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.mosoink.MIWaterDropDemoTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/MIWaterDropDemo.app/MIWaterDropDemo";
+			};
+			name = Release;
+		};
+		E2F82B111BE0AA2600AF25C8 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = MIWaterDropDemoUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.mosoink.MIWaterDropDemoUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = MIWaterDropDemo;
+				USES_XCTRUNNER = YES;
+			};
+			name = Debug;
+		};
+		E2F82B121BE0AA2600AF25C8 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = MIWaterDropDemoUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.mosoink.MIWaterDropDemoUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = MIWaterDropDemo;
+				USES_XCTRUNNER = YES;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		E2F82AD81BE0AA2600AF25C8 /* Build configuration list for PBXProject "MIWaterDropDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E2F82B081BE0AA2600AF25C8 /* Debug */,
+				E2F82B091BE0AA2600AF25C8 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		E2F82B0A1BE0AA2600AF25C8 /* Build configuration list for PBXNativeTarget "MIWaterDropDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E2F82B0B1BE0AA2600AF25C8 /* Debug */,
+				E2F82B0C1BE0AA2600AF25C8 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		E2F82B0D1BE0AA2600AF25C8 /* Build configuration list for PBXNativeTarget "MIWaterDropDemoTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E2F82B0E1BE0AA2600AF25C8 /* Debug */,
+				E2F82B0F1BE0AA2600AF25C8 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		E2F82B101BE0AA2600AF25C8 /* Build configuration list for PBXNativeTarget "MIWaterDropDemoUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E2F82B111BE0AA2600AF25C8 /* Debug */,
+				E2F82B121BE0AA2600AF25C8 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = E2F82AD51BE0AA2600AF25C8 /* Project object */;
+}
